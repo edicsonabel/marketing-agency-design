@@ -1,0 +1,36 @@
+@for $i from 1 through 5 {
+  @include cnpv("color",$i,"color",var(--color__#{$i})!important);}
+
+@for $i from 1 through 5 {
+  @include cnpv("fill",$i,"fill",var(--color__#{$i})!important);}
+
+@for $i from 1 through 5 {
+  @include cnpv("bg",$i,"background-color",var(--color__#{$i})!important);}
+
+@for $i from 1 through 6 {
+  @include cnpv("text",7-$i,"font-size",#{0.9 + $i/10}rem !important)};
+
+@for $i from 1 through 3 {
+  @include cnpv("rotate",$i*90,"transform", rotate(#{$i*90}deg) !important)};
+
+.bg{
+  min-height: 80vh !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.social-link{
+  color: $color__4;
+  margin: 3px;
+  background-color: rgba(0,0,0,.2);
+  padding: .6rem;
+  border-radius: 3px;
+  transition: background .4s;
+  display: flex;
+  justify-content: center;
+}
+.social-link:hover{
+  color: $color__4;
+  background-color: rgba(0,0,0,.1);
+}
+

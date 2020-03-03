@@ -1,0 +1,19 @@
+/* My Colors Variables */
+:root{
+  --color__1: rgba(152,24,214,1);
+  --color__2: rgba(255,81,81,1);
+  --color__3: rgba(255,164,27,1);
+  --color__4: rgba(237,237,237,1);
+  --color__5: rgba(29,29,29,1);
+}
+
+$color__1: var(--color__1);
+$color__2: var(--color__2);
+$color__3: var(--color__3);
+$color__4: var(--color__4);
+$color__5: var(--color__5);
+$color_txt__1: "rgba(152,24,214,1)";
+$color_txt__2: "rgba(255,81,81,1)";
+$color_txt__3: "rgba(255,164,27,1)";
+$color_txt__4: "rgba(237,237,237,1)";
+$color_txt__5: "rgba(29,29,29,1)";

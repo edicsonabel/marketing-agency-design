@@ -1,0 +1,4 @@
+@mixin cnpv($myClass, $myNum, $property, $myValue){
+  .#{$myClass}-#{$myNum}{
+    #{$property}: $myValue;}
+  }

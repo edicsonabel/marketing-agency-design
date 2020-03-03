@@ -1,0 +1,29 @@
+.spacer{
+  position: relative;
+  border: none !important;
+  overflow: hidden;
+  height: 50px;
+}
+.spacer-up{
+  background-color: #fff;
+  width: 100%;
+  position: absolute;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  height: 100%;
+  bottom: 0;
+}
+.spacer-down{
+  background-color: #fff;
+  width: 100%;
+  position: absolute;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  height: 100%;
+  top: 0;
+}
+.spacer-svg{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
